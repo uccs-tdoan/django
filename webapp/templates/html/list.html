@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Minimal Django File Upload Example</title>
+    </head>
+    <body>
+      <input type='hidden' name='csrfmiddlewaretoken' value='{{csrf_token}}'>
+  <a href="#" onclick="readcsv()">read csv</a>
+    </body>
+    <script>
+    function readcsv(){
+      $.ajax({
+        url:'/readcsv/',
+        type:"post",
+        cache:false,
+        success:function(data){
+        }
+      });
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</html>
