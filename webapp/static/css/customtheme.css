@@ -1,0 +1,100 @@
+.selectbox-control{
+height: 34px;
+width: 125px;
+background: #fff;
+border-radius: 5px;
+border-color: #ccc;
+}
+.chartWithOverlay {
+    position: relative;
+}
+.overlay {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    top: 10px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border-left:0px solid;
+}
+.chartWithOverlay1 {
+    position: relative;
+}
+.overlay1 {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    top: 130px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border-left:0px solid;
+}
+.chartWithOverlay2 {
+    position: relative;
+}
+.overlay2 {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    top: 250px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border-left:0px solid;
+}
+.chartWithOverlay3 {
+    position: relative;
+}
+.overlay3 {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    top: 370px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border-left:0px solid;
+}
+.chartdivoverlay {
+    width: 692px;
+    height: 75px;
+    position: absolute;
+    top: 23px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border:0px solid;
+}
+.chartdivoverlay1 {
+    width: 692px;
+    height: 75px;
+    position: absolute;
+    top: 143px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border:0px solid;
+}
+.chartdivoverlay2 {
+    width: 692px;
+    height: 75px;
+    position: absolute;
+    top: 263px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border:0px solid;
+}
+.chartdivoverlay3 {
+    width: 692px;
+    height: 75px;
+    position: absolute;
+    top: 382px;  /* chartArea top  */
+    left: 159px; /* chartArea left */
+    border:0px solid;
+}
+.screen-block{
+    display: block;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 6000;
+    text-align: center;
+    display: none;
+}
+.whiteoverlay{
+    height:338px;
+    width:228px;
+    background:#fff;
+}
